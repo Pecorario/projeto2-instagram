@@ -8,4 +8,4 @@ Criação de um layout simplificado do instagram, onde temos visualização para
 ## 🔗 Acesso
 Você pode acessar o site de produção do repositório através do link:
 
-- [globo.com](https://pecorario.github.io/projeto2-instagram/)
+- [instagram](https://pecorario.github.io/projeto2-instagram/)
