@@ -133,6 +133,8 @@ nav ul li:hover {
   align-items: center;
   gap: 14px;
 
+  padding: 0 18px;
+
   overflow: auto;
 
   border-radius: 3px; 
@@ -167,10 +169,6 @@ nav ul li:hover {
 .story-button {
   font-size: 32px;
   color: #FFF;
-}
-
-.story-container:nth-child(2) {
-  margin-left: 18px;
 }
 
 .story-container {
@@ -407,6 +405,7 @@ footer img {
 }
 
 .suggestion-user {
+  width: 70%;
   display: flex;
   align-items: center;
   gap: 11px;
@@ -419,6 +418,10 @@ footer img {
   border-radius: 50%;
 }
 
+.suggestion-info {
+  width: 100%;
+}
+
 .suggestion-info p {
   font-size: 14px;
   line-height: 16px;
@@ -426,15 +429,20 @@ footer img {
 
   color: #262626;
   margin-bottom: 4px;
+
 }
 
 
-.suggestion-info span {
+.suggestion-info .info {
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
 
   color: #8E8E8E;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .suggestion button {
@@ -495,7 +503,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media (max-width: 934px) {
+@media (min-width: 614px) and (max-width: 934px) {
   aside {
     display: none;
   }
@@ -516,6 +524,7 @@ button:hover {
 
   .header-content {
     height: 100%;
+    padding: 0 20px;
   }
 
   .logo-instagram, .mobile-message {
