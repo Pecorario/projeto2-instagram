@@ -503,7 +503,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media (min-width: 614px) and (max-width: 934px) {
+@media (max-width: 934px) {
   aside {
     display: none;
   }
