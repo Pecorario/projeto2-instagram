@@ -518,7 +518,7 @@ button:hover {
 }
 
 @media (max-width: 613px) {
-  .stories button, .buttons-container, input, .divider-column {
+  .stories button, .buttons-container, input, .divider-column, aside {
     display: none;
   }
 
